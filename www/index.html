@@ -17,25 +17,9 @@
 		<link rel="stylesheet" href="custom.css">
 
 		<script src="main.js"></script>
-
-		<!-- Matomo -->
-		<script>
-			var _paq = window._paq = window._paq || [];
-			/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-			_paq.push(['trackPageView']);
-			_paq.push(['enableLinkTracking']);
-			(function () {
-				var u = "//analytics.devtoprd.com/";
-				_paq.push(['setTrackerUrl', u + 'matomo.php']);
-				_paq.push(['setSiteId', '2']);
-				var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-				g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
-			})();
-		</script>
-		<!-- End Matomo Code -->
 	</head>
 
-	<body onload=init()>
+	<body onload=init(true)>
 		<div id="map"></div>
 		<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
 				href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
