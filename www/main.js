@@ -153,7 +153,7 @@ function init(loadLocal = true) {
 		attribution: 'Tiles courtesy of the <a href="https://usgs.gov/">U.S. Geological Survey</a>'
 	});
 	var usgsGeologyLayer = L.tileLayer.wms('https://mrdata.usgs.gov/services/kb?', {
-		layers: 'Geology', opacity: 0.5
+		layers: 'KB_Geology', opacity: 0.5
 	});
 	var usgsFaultsLayer = L.tileLayer.wms('https://mrdata.usgs.gov/services/kb?', {
 		layers: 'Faults', opacity: 0.4
