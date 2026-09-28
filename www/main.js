@@ -43,55 +43,57 @@ function getMarker(textDisplay, state, latitude, longitude, website, notes, disp
 function populateFossilSites() {
 	let fossilSites = [];
 
-	fossilSites.push(new FossilSite("Indian Gardens Paleo Site", "Arizona", 34.321974, -111.110955, "", "Marine fossils."));
-	fossilSites.push(new FossilSite("Sharktooth Hill", "California", 35.441876, -118.905526, "https://www.fossilguy.com/sites/sharktooth-hill/index.htm", "Miocene-age shark teeth."));
-	fossilSites.push(new FossilSite("Florissant Fossil Quarry", "Colorado", 38.944147, -105.28842, "https://www.florissantfossilquarry.com/", "Insects and plants in shale."));
-	fossilSites.push(new FossilSite("Peace River", "Florida", 27.220116, -81.876817, "", "Miocene to Pliocene shark teeth, mammal bones.  Note that the map only shows a common starting point: there are many miles of sites along the river."));
-	fossilSites.push(new FossilSite("Mazon Creek", "Illinois", 41.188835, -88.230053, "https://nautiloid.net/fossils/sites/mazon/mazon.html", "Soft-bodied fauna, including jellyfish.  Permit is required.  Surface collecting only."));
-	fossilSites.push(new FossilSite("Bon Well Hill - roadcut", "Indiana", 39.43693, -84.993, "", "Ordovician marine fossils, including brachiopods, bryozoa, and trilobites."));
-	fossilSites.push(new FossilSite("Brookville North - roadcuts", "Indiana", 39.4875, -84.94861, "", "Ordovician marine fossils, including brachiopods, bryozoa, and trilobites."));
-	fossilSites.push(new FossilSite("Garr Hill - roadcut", "Indiana", 39.480417, -84.948358, "", "Ordovician marine fossils, including brachiopods, bryozoa, and trilobites."));
-	fossilSites.push(new FossilSite("Richmond - roadcuts", "Indiana", 39.78722, -84.90166, "", ""));
-	fossilSites.push(new FossilSite("South Gate Hill - roadcuts", "Indiana", 39.339, -84.95286, "", ""));
-	fossilSites.push(new FossilSite("Tell City - roadcut", "Indiana", 37.957847, -86.724334, "", "Blastoid echinoderms."));
-	fossilSites.push(new FossilSite("Ashlock Cemetery - roadcut", "Kentucky", 37.57361, -84.61361, "", ""));
-	fossilSites.push(new FossilSite("Bedford - roadcuts", "Kentucky", 38.60222, -85.27361, "", ""));
-	fossilSites.push(new FossilSite("Bighill exposure", "Kentucky", 37.529363, -84.212426, "", "Small phosphate nodules, fish teeth, scales, small fragmented bones, and conodonts.  Phosphatized invertebrate remains, including, gastropods, brachiopods, and crinoid debris are also present."));
-	fossilSites.push(new FossilSite("Bybee - roadcuts", "Kentucky", 37.72322, -84.10935, "", ""));
-	fossilSites.push(new FossilSite("Clays Ferry - roadcuts", "Kentucky", 37.88102, -84.33972, "", ""));
-	fossilSites.push(new FossilSite("Flemingsburg - roadcuts", "Kentucky", 38.40374, -83.72613, "", ""));
-	fossilSites.push(new FossilSite("Fredericktown - roadcut", "Kentucky", 37.76917, -85.35694, "", ""));
-	fossilSites.push(new FossilSite("Lincoln County Line - roadcuts", "Kentucky", 37.57778, -84.61, "", ""));
-	fossilSites.push(new FossilSite("Maysville - roadcut", "Kentucky", 38.679081, -83.794398, "", ""));
-	fossilSites.push(new FossilSite("Orphanage Road - roadcut", "Kentucky", 39.02972, -84.54166, "", ""));
-	fossilSites.push(new FossilSite("Riedlin Road - roadcuts", "Kentucky", 39.02778, -84.51056, "", ""));
-	fossilSites.push(new FossilSite("Calvert Cliffs", "Maryland", 38.402222, -76.407975, "http://www.mgs.md.gov/geology/fossils/fossil_collecting.html", "Miocene-age formations.  Some areas are restricted, and some have fees.  Beach collecting only: digging into the cliffs is not permitted."));
-	fossilSites.push(new FossilSite("Lafarge Fossil Park", "Michigan", 45.081325, -83.448752, "https://www.bessermuseum.org/fossil-park", "Devonian-age limestone."));
-	fossilSites.push(new FossilSite("Big Brook", "New Jersey", 40.326349, -74.224072, "https://www.monmouthcountyparks.com/page.aspx?Id=2549", "Cretaceous-age fossils including teeth from sharks, Mosasaur, and Enchodus."));
-	fossilSites.push(new FossilSite("Penn Dixie Fossil Park", "New York", 42.776627, -78.83098, "https://penndixie.org/", "Trilobites, prehistoric crabs, sea lilies, starfish, mollusks, coral, and snails."));
-	fossilSites.push(new FossilSite("Blue Rock Road - roadcuts", "Ohio", 39.22972, -84.62112, "", ""));
-	fossilSites.push(new FossilSite("Caesar Creek - spillway", "Ohio", 39.479961, -84.057065, "https://ohiodnr.gov/wps/portal/gov/odnr/go-and-do/plan-a-visit/find-a-property/caesar-creek-state-park-campground", "Ordovician marine fossils, including brachiopods, bryozoa, and trilobites."));
-	fossilSites.push(new FossilSite("Cowan Lake State Park", "Ohio", 39.385994, -83.902651, "https://ohiodnr.gov/wps/portal/gov/odnr/go-and-do/plan-a-visit/find-a-property/cowan-lake-state-park", ""));
-	fossilSites.push(new FossilSite("East Fork State Park", "Ohio", 39.02589, -84.134252, "https://ohiodnr.gov/wps/portal/gov/odnr/go-and-do/plan-a-visit/find-a-property/east-fork-state-park", ""));
-	fossilSites.push(new FossilSite("Georgetown - roadcuts", "Ohio", 38.87222, -83.91667, "", ""));
-	fossilSites.push(new FossilSite("Germantown Reservoir - spillway", "Ohio", 39.6377, -84.400598, "https://www.metroparks.org/places-to-go/germantown/", "Ordovician marine fossils, including brachiopods, bryozoa, and trilobites."));
-	fossilSites.push(new FossilSite("Hueston Woods - covered bridge", "Ohio", 39.592453, -84.770273, "https://ohiodnr.gov/wps/portal/gov/odnr/go-and-do/plan-a-visit/find-a-property/hueston-woods-state-park", "Ordovician marine fossils, including brachiopods, bryozoa, and trilobites."));
-	fossilSites.push(new FossilSite("Hueston Woods - spillway", "Ohio", 39.556294, -84.733815, "https://ohiodnr.gov/wps/portal/gov/odnr/go-and-do/plan-a-visit/find-a-property/hueston-woods-state-park", "Ordovician marine fossils, including brachiopods, bryozoa, and trilobites."));
-	fossilSites.push(new FossilSite("Miamisburg - railroad cut", "Ohio", 39.631822, -84.29078, "", "Ordovician marine fossils, including brachiopods, bryozoa, and trilobites."));
-	fossilSites.push(new FossilSite("Oakes Quarry Park", "Ohio", 39.814103, -83.984217, "http://www.beavercreekwetlands.org/maplocations-oakes.html", "Silurian marine fossils."));
-	fossilSites.push(new FossilSite("Sylvania Fossil Park - Olander Park System", "Ohio", 41.712321, -83.745112, "https://www.olanderpark.com/olanderpark/fossil-park/", ""));
-	fossilSites.push(new FossilSite("Trammel Fossil Park", "Ohio", 39.296417, -84.404785, "https://www.sharonville.org/188/Trammel-Fossil-Park", ""));
-	fossilSites.push(new FossilSite("West Union - roadcut", "Ohio", 38.82722, -83.50555, "", ""));
-	fossilSites.push(new FossilSite("Wright Brothers Memorial - railroad cut", "Ohio", 39.79611, -84.08694, "", ""));
-	fossilSites.push(new FossilSite("Wheeler High School Fossil Beds", "Oregon", 45.002944, -120.214194, "https://www.oregonpaleolandscenter.com/", "Plant fossils from the 33-million-year-old (Oligocene) Bridge Creek Member of the John Day Formation."));
-	fossilSites.push(new FossilSite("Fossil Pit - Montour Preserve", "Pennsylvania", 41.110518, -76.647395, "https://montourpreserve.org/fossil-pit/", "Fossils in Mahantango shale."));
-	fossilSites.push(new FossilSite("Celina - roadcuts", "Tennessee", 36.560661, -85.450787, "", "Crinoid / bryozoan grainstones."));
-	fossilSites.push(new FossilSite("Celina - roadcuts", "Tennessee", 36.507301, -85.462731, "", "Crinoid / bryozoan grainstones."));
-	fossilSites.push(new FossilSite("Ladonia Fossil Park", "Texas", 33.457438, -95.942574, "http://www.cocladonia.org/ladonia-fossil-park.html", "Cretaceous fossils, including mosasaur teeth, ammonites, bivalves and shark teeth. The Pleistocene sediments above have mammoth bones and teeth."));
-	fossilSites.push(new FossilSite("Mineral Wells Fossil Park", "Texas", 32.825748, -98.190511, "https://www.mineralwellsfossilpark.com/", "Crinoids, echinoids, brachiopods, pelecypods, bryozoans, corals, trilobites, plants and primitive sharks."));
-	fossilSites.push(new FossilSite("U - dig Fossils", "Utah", 39.354909, -113.278575, "https://u-digfossils.com/", "Trilobites, brachiopods, sponges, worm tracks, phyllocarids and other mid-Cambrian fossils."));
-	fossilSites.push(new FossilSite("Westmoreland State Park", "Virginia", 38.167033, -76.854534, "https://www.dcr.virginia.gov/state-parks/westmoreland", "Miocene fossils, including megalodon teeth, alligators, dolphins, whales, fish, and assorted mammals."));
-	fossilSites.push(new FossilSite("Fossil Safari at Warfield Fossil Quarries", "Wyoming", 41.868175, -110.676794, "http://fossilsafari.com/", "Eocene-age fish, including Knightia, Diplomystus, Phareodus, Mioplosus, Amphiplaga, and Priscacara."));
+	fossilSites.push(
+		new FossilSite("Indian Gardens Paleo Site", "Arizona", 34.321974, -111.110955, "", "Marine fossils."),
+		new FossilSite("Sharktooth Hill", "California", 35.441876, -118.905526, "https://www.fossilguy.com/sites/sharktooth-hill/index.htm", "Miocene-age shark teeth."),
+		new FossilSite("Florissant Fossil Quarry", "Colorado", 38.944147, -105.28842, "https://www.florissantfossilquarry.com/", "Insects and plants in shale."),
+		new FossilSite("Peace River", "Florida", 27.220116, -81.876817, "", "Miocene to Pliocene shark teeth, mammal bones.  Note that the map only shows a common starting point: there are many miles of sites along the river."),
+		new FossilSite("Mazon Creek", "Illinois", 41.188835, -88.230053, "https://nautiloid.net/fossils/sites/mazon/mazon.html", "Soft-bodied fauna, including jellyfish.  Permit is required.  Surface collecting only."),
+		new FossilSite("Bon Well Hill - roadcut", "Indiana", 39.43693, -84.993, "", "Ordovician marine fossils, including brachiopods, bryozoa, and trilobites."),
+		new FossilSite("Brookville North - roadcuts", "Indiana", 39.4875, -84.94861, "", "Ordovician marine fossils, including brachiopods, bryozoa, and trilobites."),
+		new FossilSite("Garr Hill - roadcut", "Indiana", 39.480417, -84.948358, "", "Ordovician marine fossils, including brachiopods, bryozoa, and trilobites."),
+		new FossilSite("Richmond - roadcuts", "Indiana", 39.78722, -84.90166, "", ""),
+		new FossilSite("South Gate Hill - roadcuts", "Indiana", 39.339, -84.95286, "", ""),
+		new FossilSite("Tell City - roadcut", "Indiana", 37.957847, -86.724334, "", "Blastoid echinoderms."),
+		new FossilSite("Ashlock Cemetery - roadcut", "Kentucky", 37.57361, -84.61361, "", ""),
+		new FossilSite("Bedford - roadcuts", "Kentucky", 38.60222, -85.27361, "", ""),
+		new FossilSite("Bighill exposure", "Kentucky", 37.529363, -84.212426, "", "Small phosphate nodules, fish teeth, scales, small fragmented bones, and conodonts.  Phosphatized invertebrate remains, including, gastropods, brachiopods, and crinoid debris are also present."),
+		new FossilSite("Bybee - roadcuts", "Kentucky", 37.72322, -84.10935, "", ""),
+		new FossilSite("Clays Ferry - roadcuts", "Kentucky", 37.88102, -84.33972, "", ""),
+		new FossilSite("Flemingsburg - roadcuts", "Kentucky", 38.40374, -83.72613, "", ""),
+		new FossilSite("Fredericktown - roadcut", "Kentucky", 37.76917, -85.35694, "", ""),
+		new FossilSite("Lincoln County Line - roadcuts", "Kentucky", 37.57778, -84.61, "", ""),
+		new FossilSite("Maysville - roadcut", "Kentucky", 38.679081, -83.794398, "", ""),
+		new FossilSite("Orphanage Road - roadcut", "Kentucky", 39.02972, -84.54166, "", ""),
+		new FossilSite("Riedlin Road - roadcuts", "Kentucky", 39.02778, -84.51056, "", ""),
+		new FossilSite("Calvert Cliffs", "Maryland", 38.402222, -76.407975, "http://www.mgs.md.gov/geology/fossils/fossil_collecting.html", "Miocene-age formations.  Some areas are restricted, and some have fees.  Beach collecting only: digging into the cliffs is not permitted."),
+		new FossilSite("Lafarge Fossil Park", "Michigan", 45.081325, -83.448752, "https://www.bessermuseum.org/fossil-park", "Devonian-age limestone."),
+		new FossilSite("Big Brook", "New Jersey", 40.326349, -74.224072, "https://www.monmouthcountyparks.com/page.aspx?Id=2549", "Cretaceous-age fossils including teeth from sharks, Mosasaur, and Enchodus."),
+		new FossilSite("Penn Dixie Fossil Park", "New York", 42.776627, -78.83098, "https://penndixie.org/", "Trilobites, prehistoric crabs, sea lilies, starfish, mollusks, coral, and snails."),
+		new FossilSite("Blue Rock Road - roadcuts", "Ohio", 39.22972, -84.62112, "", ""),
+		new FossilSite("Caesar Creek - spillway", "Ohio", 39.479961, -84.057065, "https://ohiodnr.gov/wps/portal/gov/odnr/go-and-do/plan-a-visit/find-a-property/caesar-creek-state-park-campground", "Ordovician marine fossils, including brachiopods, bryozoa, and trilobites."),
+		new FossilSite("Cowan Lake State Park", "Ohio", 39.385994, -83.902651, "https://ohiodnr.gov/wps/portal/gov/odnr/go-and-do/plan-a-visit/find-a-property/cowan-lake-state-park", ""),
+		new FossilSite("East Fork State Park", "Ohio", 39.02589, -84.134252, "https://ohiodnr.gov/wps/portal/gov/odnr/go-and-do/plan-a-visit/find-a-property/east-fork-state-park", ""),
+		new FossilSite("Georgetown - roadcuts", "Ohio", 38.87222, -83.91667, "", ""),
+		new FossilSite("Germantown Reservoir - spillway", "Ohio", 39.6377, -84.400598, "https://www.metroparks.org/places-to-go/germantown/", "Ordovician marine fossils, including brachiopods, bryozoa, and trilobites."),
+		new FossilSite("Hueston Woods - covered bridge", "Ohio", 39.592453, -84.770273, "https://ohiodnr.gov/wps/portal/gov/odnr/go-and-do/plan-a-visit/find-a-property/hueston-woods-state-park", "Ordovician marine fossils, including brachiopods, bryozoa, and trilobites."),
+		new FossilSite("Hueston Woods - spillway", "Ohio", 39.556294, -84.733815, "https://ohiodnr.gov/wps/portal/gov/odnr/go-and-do/plan-a-visit/find-a-property/hueston-woods-state-park", "Ordovician marine fossils, including brachiopods, bryozoa, and trilobites."),
+		new FossilSite("Miamisburg - railroad cut", "Ohio", 39.631822, -84.29078, "", "Ordovician marine fossils, including brachiopods, bryozoa, and trilobites."),
+		new FossilSite("Oakes Quarry Park", "Ohio", 39.814103, -83.984217, "http://www.beavercreekwetlands.org/maplocations-oakes.html", "Silurian marine fossils."),
+		new FossilSite("Sylvania Fossil Park - Olander Park System", "Ohio", 41.712321, -83.745112, "https://www.olanderpark.com/olanderpark/fossil-park/", ""),
+		new FossilSite("Trammel Fossil Park", "Ohio", 39.296417, -84.404785, "https://www.sharonville.org/188/Trammel-Fossil-Park", ""),
+		new FossilSite("West Union - roadcut", "Ohio", 38.82722, -83.50555, "", ""),
+		new FossilSite("Wright Brothers Memorial - railroad cut", "Ohio", 39.79611, -84.08694, "", ""),
+		new FossilSite("Wheeler High School Fossil Beds", "Oregon", 45.002944, -120.214194, "https://www.oregonpaleolandscenter.com/", "Plant fossils from the 33-million-year-old (Oligocene) Bridge Creek Member of the John Day Formation."),
+		new FossilSite("Fossil Pit - Montour Preserve", "Pennsylvania", 41.110518, -76.647395, "https://montourpreserve.org/fossil-pit/", "Fossils in Mahantango shale."),
+		new FossilSite("Celina - roadcuts", "Tennessee", 36.560661, -85.450787, "", "Crinoid / bryozoan grainstones."),
+		new FossilSite("Celina - roadcuts", "Tennessee", 36.507301, -85.462731, "", "Crinoid / bryozoan grainstones."),
+		new FossilSite("Ladonia Fossil Park", "Texas", 33.457438, -95.942574, "http://www.cocladonia.org/ladonia-fossil-park.html", "Cretaceous fossils, including mosasaur teeth, ammonites, bivalves and shark teeth. The Pleistocene sediments above have mammoth bones and teeth."),
+		new FossilSite("Mineral Wells Fossil Park", "Texas", 32.825748, -98.190511, "https://www.mineralwellsfossilpark.com/", "Crinoids, echinoids, brachiopods, pelecypods, bryozoans, corals, trilobites, plants and primitive sharks."),
+		new FossilSite("U - dig Fossils", "Utah", 39.354909, -113.278575, "https://u-digfossils.com/", "Trilobites, brachiopods, sponges, worm tracks, phyllocarids and other mid-Cambrian fossils."),
+		new FossilSite("Westmoreland State Park", "Virginia", 38.167033, -76.854534, "https://www.dcr.virginia.gov/state-parks/westmoreland", "Miocene fossils, including megalodon teeth, alligators, dolphins, whales, fish, and assorted mammals."),
+		new FossilSite("Fossil Safari at Warfield Fossil Quarries", "Wyoming", 41.868175, -110.676794, "http://fossilsafari.com/", "Eocene-age fish, including Knightia, Diplomystus, Phareodus, Mioplosus, Amphiplaga, and Priscacara.")
+	);
 
 	return fossilSites;
 }
